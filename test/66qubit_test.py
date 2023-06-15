@@ -3,7 +3,7 @@ from ezQpy import *
 from qiskit import QuantumCircuit
 
 # login_key在 https://www.quantumcomputer.ac.cn/User  下的SDK密钥
-account = Account(login_key='b14d3912329ca67b607a59412eeb4f9d', machine_name='ClosedBetaQC')
+account = Account(login_key='', machine_name='ClosedBetaQC')
 
 fileqasm = r'E:\python\quantumctek\qasm\test_qasm\cnt3-5_179.qasm'
 circuit = QuantumCircuit.from_qasm_file(fileqasm)
